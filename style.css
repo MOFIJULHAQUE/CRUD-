@@ -88,7 +88,6 @@ h1 {
 .btn_section button{
   background-color: rgb(0, 183, 255);
   margin-right: 1rem;
-  padding: 21rem;
 }
 
 /*  */
@@ -110,7 +109,7 @@ h1 {
   padding: 2%;
   border-radius: 5px;
   color: rgb(0, 0, 0);
-  width: 30vw;
+  width: 25vw;
 
   margin-right: 2rem;
 

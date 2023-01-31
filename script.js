@@ -31,10 +31,10 @@ function setLocalStorage() {
 
       <div class="btn_section">
       
-      <button onClick="onDelete(${id})" class="btns" >Delete</button>
-       
+      <button onClick="onDelete(${id})" style="padding:1rem">Delete</button>
 
-        <button onClick="onEdit(${id})" id="btnEdit">Edit</button>
+
+      <button onClick="onEdit(${id})"  style="padding:1rem" id="btnEdit">Edit</button>
     
 
       </div>
