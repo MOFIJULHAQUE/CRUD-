@@ -16,23 +16,27 @@ function setLocalStorage() {
       let htmlData = `
       <div class="inside_newData">
 
-      <div class="name">
+        <div class="name">
       
             Name :- <span>${user.name}</span>
-      </div>
+        </div>
 
-      <div class="name1">
+        <div class="name1">
        
            Password :- <span>${user.password}</span>
            
+         </div>
+      
       </div>
-      
-      <div>
 
-      </div class="btn_section">
+      <div class="btn_section">
       
-      <button onClick="onDelete(${id})" >Delete</button>
-      <button onClick="onEdit(${id})" id="btnEdit">Edit</button>
+      <button onClick="onDelete(${id})" class="btns" >Delete</button>
+       
+
+        <button onClick="onEdit(${id})" id="btnEdit">Edit</button>
+    
+
       </div>
 
         `;

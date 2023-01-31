@@ -62,10 +62,10 @@ h1 {
 
 .newData {
   padding: 0%;
-  width: 30rem;
+  width: 70vw;
   border-radius: 5px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   margin-bottom: 4%;
   border: 2px solid black;
@@ -79,6 +79,19 @@ h1 {
   flex-direction: row;
   background: transparent;
 }
+.btn_section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn_section button{
+  background-color: rgb(0, 183, 255);
+  margin-right: 1rem;
+  padding: 21rem;
+}
+
+/*  */
 
 
 .name {
@@ -86,8 +99,9 @@ h1 {
   padding: 2%;
   border-radius: 5px;
   color: rgb(0, 0, 0);
-  width: 150px;
-  margin-left: -2rem;
+  width: 30vw;
+  margin-right: 2rem;
+  margin-left: -4rem;
 }
 
 
@@ -96,7 +110,10 @@ h1 {
   padding: 2%;
   border-radius: 5px;
   color: rgb(0, 0, 0);
-  width: 150px;
+  width: 30vw;
+
+  margin-right: 2rem;
+
 }
 
 
@@ -136,14 +153,22 @@ h1 {
   flex-direction: column;
 }
 
+.icons {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+
+}
+
 .contact__details i {
   background: transparent;
   color: black;
+  margin-right: 1rem;
 }
 
 .contact__details a {
   background: transparent;
- 
+
   margin-bottom: 1.5rem;
   font-size: 2rem;
   text-decoration: none;
@@ -152,3 +177,79 @@ h1 {
 .contact__details i:hover {
   color: rgb(12, 61, 145);
 }
+
+/*  */
+@media screen and (max-width:600px) {
+  .contact__details {
+    top: 7%;
+    left: 25%;
+    justify-content: center;
+  }
+
+  .container h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .icons {
+    flex-direction: row;
+  }
+
+  .icons i {
+    margin-right: 1.5rem;
+  }
+
+  .newData {
+    width: 50vw;
+  }
+
+
+  .newData .inside_newData {
+    flex-direction: column;
+    /* justify-content: center; */
+  }
+
+  .newData .inside_newData .name {
+    width: 65vw;
+    margin-left: -3rem;
+    margin-bottom: 1rem;
+
+  }
+
+  .newData .inside_newData .name1 {
+    width: 65vw;
+    margin-left: -3rem;
+    margin-bottom: 1rem;
+  }
+   .btn_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .btn_section button{
+    background-color: rgb(0, 183, 255);
+    width: 20vw;
+
+  }
+
+}
+
+/* 
+.name {
+  border: 0.1px solid black;
+  padding: 2%;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  width: 150px;
+  margin-left: -2rem;
+}
+
+
+.name1 {
+  border: 0.1px solid black;
+  padding: 2%;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  wi
+*/
